@@ -1,6 +1,9 @@
 Project Requirements:
+
   Java 8 - (java version "1.8.0_211" & Java(TM) SE Runtime Environment (build 1.8.0_211-b12)
+  
   Maven 3 (version 3.3.9)
+  
   Twilio Account - their free trial is generous
   
 Install Instructions:
