@@ -22,7 +22,15 @@ Variable Value: AB1234a1234a123a1ab1a1a12ab1234567
 Variable Name: TWILIO_AUTH_TOKEN
 Variable Value: a12ab12a1234567a123a1a12a123a1a1
 
-6.In cmd navigate to the folder that contains the copy of the project and enter the following commands one at a time for the initial set up. //unresolved
+6.In cmd navigate to the folder that contains the copy of the project and enter the following commands one at a time for the initial set up. 
+mvn clean 
+mvn compile
+mvn package
+mvn install
+java -jar (the location you put the project on your computer)/TextComic-master/out/artifacts/TextProject_jar/TextProject.jar
+
+7. To run the the program again only run the java -jar line again ( the last instruction in #6). This jar command can be added to a scheduler to run daily if you would like. 
+
 
 
     
