@@ -8,7 +8,7 @@ Install Instructions:
 2. Set up a twilio number (could be a trial number) and a reciving phone number <br>
 3. `git clone TextComic`<br>
 4. `mvn verify`<br>
-5.Set these environment variables with data from your twilio account: (The variable names must be exactly the same while the values will be unique to your account they must be in the same format)
+5. Set these environment variables with data from your twilio account: (The variable names must be exactly the same while the values will be unique to your account they must be in the same format)
 
 Variable Name: RECIPIENT_PHONE
 Variable Value: +13333334444
